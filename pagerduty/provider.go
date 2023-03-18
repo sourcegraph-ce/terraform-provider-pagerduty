@@ -2,7 +2,7 @@ package pagerduty
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"runtime"
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
